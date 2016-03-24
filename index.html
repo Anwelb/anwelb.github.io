@@ -1,14 +1,59 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Anwelb.GitHub.io by Anwelb</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-  </head>
-  <body>
-   <h2>hello world</h2>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galithin Builders</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="stylesheets/stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" media="screen and (max-width:480px)" ></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,300italic' rel='stylesheet' type='text/css'>
+  <script>
+    $(window).scroll(function() {
+  var y_scroll_pos = window.pageYOffset;
+  var scroll_pos_test = 200;
+
+  // set to whatever you want it to be
+
+  if(y_scroll_pos > scroll_pos_test) {
+    $(".a").css("width","50%");
+    $(".b").css("width","70%");
+    $(".c").css("width","81%");
+  }
+ 
   
-  </body>
+});
+    
+  </script>
+  
+
+</head>
+<body>
+<div class="banner">
+  <span class="lorem">Lorem ipsum dolor sit amet</span>
+  </div>
+  <div class="main">
+   <div class="nav">
+     <a href="#" class="btn">Join team</a>
+     <a href="#" class="btn">Hire Us</a>
+     <a href="#" class="btn">Contact</a>
+     <a href="#" class="btn">About</a>
+     <a href="#" class="btn">Home</a>
+    </div>
+    <span class="ability hub">Hubs/Spawns/Lobbies</span>
+    <div class="meter">
+      
+      <span class="a"></span>
+     
+    </div><span class="ability pvp">PvP Maps</span>
+    <div class="metertwo">
+
+      <span class="b"></span>   
+    </div><span class="ability shop">Shops</span>
+    <div class="meterthree">
+
+      <span class="c"></span>   
+    </div>
+  </div>
+</body>
 </html>
