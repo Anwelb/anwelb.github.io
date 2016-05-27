@@ -10,14 +10,14 @@
   <script>
     $(window).scroll(function() {
       var y_scroll_pos = window.pageYOffset;
-      var scroll_pos_test = 100;
+      var scroll_pos_test = 50;
 
 
       if(y_scroll_pos > scroll_pos_test) {
-        $(".backtotop").css("opacity","1");
+        $(".nav").css("top","0");
       }
       else {
-        $(".backtotop").css("opacity","0");
+        $(".nav").css("top","-60px");
 
       }
 
